@@ -22,7 +22,7 @@
                      <ul class=" text-lg font-bold">
                         {#each header as blok}
                             <li class="hover:text-[#50b0ae]">
-                                <a href=/{blok.link.story.slug}> {blok.link.story.name}</a>
+                                <a href=/{blok.link.story.slug} on:click="{function(){showNav = !showNav}}"> {blok.link.story.name}</a>
                             </li>
                         {/each}
                     </ul>
