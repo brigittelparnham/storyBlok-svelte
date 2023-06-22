@@ -2,3 +2,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+footer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+}
+
+.navIcon{
+    z-index: 2;
+
+}
+
+#fic--menu {
+    background-color: rgb(191 219 254);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 80px 20px 20px 20px;
+    width: 300px;
+}
+
+        #fic--menu ul {
+            list-style-type: none;
+            padding: 10px 0 0 0;
+            float: left;
+            width:85%;
+        }
+
+            #fic--menu  ul > li {
+                display: block;
+                width: 100%;
+                float: inherit;
+                padding-bottom: 5px;
+            }
+
+                #fic--menu ul > li a {
+                    text-decoration: none;
+                    float: right;
+                }
